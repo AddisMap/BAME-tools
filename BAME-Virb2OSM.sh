@@ -16,7 +16,7 @@
 
 # Target dir for geocoded pictures
 # a subdirectory according to the gpx timestamp is automatically added
-TARGETDIR="/home/self/Unwichtiges/Virb/New"
+TARGETDIR="/home/me/output/goes/here"
 
 # set framerate (important)
 # for 30fps (NTSC) set to 1 - so every one second a frame is extracted
