@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Copyright (c) 2014 by Bandira AddisMap Entertainment P.L.C., Addis Ababa, Ethiopia
-# License: MIT
+# Portions Copyright (c) by OSM Wiki User Didier2020 http://wiki.openstreetmap.org/w/index.php?title=Video_mapping&oldid=993177
+# License: Creative Commons Attribution-ShareAlike 2.0
 
 
 
