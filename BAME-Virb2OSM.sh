@@ -71,8 +71,8 @@ while [ $# -ne 0 ]
     echo ""
 
     echo "Geotagging"
-    # we might use
-    exiftool -overwrite_original -geosync=-$offset -geotag "$gpxfile" "-geotime<CreateDate" -P "$target"/pic*.jpg
+    # offset: -$offset + 2 videotime - gpxname
+    exiftool -overwrite_original -geosync=-1 -geotag "$gpxfile" "-geotime<CreateDate" -P "$target"/pic*.jpg
 
 
     cp "$gpxfile" "$target"/"$base".gpx
