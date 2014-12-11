@@ -6,6 +6,7 @@
 
 
 
+
 # README
 #
 # Please adapt the following constants before the first use
@@ -13,7 +14,17 @@
 # Please make sure you use the newest firmware
 #
 # Please add a file ".BAME-Virb2OSM.conf" based on the file delivered
-
+#
+# Requirements
+#
+# imagmagick
+# ffpmpeg
+# exiftool
+#
+# for ffpmpeg
+#
+# sudo apt-add-repository ppa:jon-severinsson/ffmpeg
+# apt-get install ffmpeg
 source ~/.BAME-Virb2OSM.conf
 
 while [ $# -ne 0 ]
