@@ -68,7 +68,7 @@ while [ $# -ne 0 ]
     # Adjust time of each jpeg
     num=0 #num of seconds to add
 
-    find "$target" -name "pic*.jpg" -exec -quality 50 mogrify {} \;
+    find "$target" -name "pic*.jpg" -exec mogrify -quality 50 {} \;
 
     echo "Setting time +1 second for each"
     for file in "$target"/pic*.jpg
