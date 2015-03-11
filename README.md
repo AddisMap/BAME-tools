@@ -1,7 +1,9 @@
 BAME-tools
 ==========
 
-Tools by Bandira AddisMap Ent. PLC
+Tools by [Bandira AddisMap Ent. PLC](http://www.addismap.com/bandira).
+
+Used for http://www.addismap.com/ and http://www.map.et/
 
 
 
